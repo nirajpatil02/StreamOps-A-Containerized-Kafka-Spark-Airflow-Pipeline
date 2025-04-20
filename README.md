@@ -4,12 +4,11 @@ This repository implements a data streaming and processing pipeline using Apache
 
 ## Technologies Used
 
-[![Kafka](https://upload.wikimedia.org/wikipedia/commons/0/01/Apache_Kafka_logo.svg)]{:height="50px"} 
-[![Airflow](https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png)]{:height="50px"} 
-[![Spark](https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg)]{:height="50px"} 
-[![Cassandra](https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg)]{:height="50px"} 
-[![Docker](https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg)]{:height="50px"} 
-
+[<img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Apache_Kafka_logo.svg" height="50">](https://kafka.apache.org/)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" height="50">](https://airflow.apache.org/)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" height="50">](https://spark.apache.org/)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg" height="50">](http://cassandra.apache.org/)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" height="50">](https://www.docker.com/)
 
 ## Project Overview
 This project sets up an end-to-end data streaming pipeline using Kafka, Spark, and Airflow. The data is retrieved from an external API, formatted, and streamed into a Kafka topic (users_created). A Spark consumer then processes the data from Kafka, transforms it, and inserts it into Cassandra for storage.
