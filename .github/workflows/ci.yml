@@ -1,0 +1,26 @@
+name: SonarCloud Analysis
+
+on:
+  push:
+    branches:
+      - main  # This triggers the analysis on each push to the 'main' branch.
+
+jobs:
+  sonarqube:
+    name: SonarCloud Scan
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # Checks out your repo code so it can be analyzed.
+
+      - name: Set up SonarCloud
+        uses: sonarsource/sonarcloud-github-action@v1  # This action sets up SonarCloud integration.
+        with:
+          sonarcloud_token: ${{ secrets.SONAR_TOKEN }}  # We will set this token in the next step.
+
+      - name: Build and Analyze
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt  # Install dependencies.
+          sonar-scanner  # Run SonarScanner to analyze the project.
