@@ -4,9 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
 ![Repo Size](https://img.shields.io/github/repo-size/nirajpatil02/StreamOps-A-Containerized-Kafka-Spark-Airflow-Pipeline)
 ![Last Commit](https://img.shields.io/github/last-commit/nirajpatil02/StreamOps-A-Containerized-Kafka-Spark-Airflow-Pipeline)
-![Issues](https://img.shields.io/github/issues/nirajpatil02/StreamOps-A-Containerized-Kafka-Spark-Airflow-Pipeline)
-![Stars](https://img.shields.io/github/stars/nirajpatil02/StreamOps-A-Containerized-Kafka-Spark-Airflow-Pipeline?style=social)
-
+![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=StreamOps-A-Containerized-Kafka-Spark-Airflow-Pipeline&metric=alert_status)
 
 # StreamOps-A-Containerized-Kafka-Spark-Airflow-Pipeline
 
