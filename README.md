@@ -4,11 +4,11 @@ This repository implements a data streaming and processing pipeline using Apache
 
 ## Technologies Used
 
-[![Kafka](https://upload.wikimedia.org/wikipedia/commons/0/01/Apache_Kafka_logo.svg)](https://kafka.apache.org/) 
-[![Airflow](https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png)](https://airflow.apache.org/) 
-[![Spark](https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg)](https://spark.apache.org/) 
-[![Cassandra](https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg)](http://cassandra.apache.org/) 
-[![Docker](https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg)](https://www.docker.com/)
+[![Kafka](https://upload.wikimedia.org/wikipedia/commons/0/01/Apache_Kafka_logo.svg)]{:height="50px"} 
+[![Airflow](https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png)]{:height="50px"} 
+[![Spark](https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg)]{:height="50px"} 
+[![Cassandra](https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg)]{:height="50px"} 
+[![Docker](https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg)]{:height="50px"} 
 
 
 ## Project Overview
