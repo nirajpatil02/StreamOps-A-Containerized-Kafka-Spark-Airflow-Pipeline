@@ -22,8 +22,14 @@ Docker Compose: Manages all services (Kafka, Spark, Cassandra, Airflow) in conta
 
 # Project Structure
 
-<pre><code>## Project Structure . ├── dags/ │ └── kafka-stream.py # Airflow DAG to stream data from API to Kafka ├── script/ │ └── entrypoint.sh # Entrypoint script for Airflow containers ├── docker-compose.yml # Docker Compose file to set up services ├── requirements.txt # Python dependencies for Airflow └── spark-stream.py # Spark streaming app to consume from Kafka and insert into Cassandra </code></pre>
-
+.
+├── dags/
+│   └── kafka-stream.py         # Airflow DAG to stream data from API to Kafka
+├── script/
+│   └── entrypoint.sh           # Entrypoint script for Airflow containers
+├── docker-compose.yml          # Docker Compose file to set up services
+├── requirements.txt            # Python dependencies for Airflow
+└── spark-stream.py             # Spark streaming app to consume from Kafka and insert into Cassandra
 
 ## Step-by-Step Setup
 
