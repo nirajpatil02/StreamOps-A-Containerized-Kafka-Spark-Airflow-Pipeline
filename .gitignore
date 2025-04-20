@@ -1,17 +1,3 @@
-# Ignore virtual environments
-venv/
-
-# Ignore Python bytecode files
-__pycache__/
-
-# Ignore environment variable files
-.env
-
-# Ignore logs
-logs/
-
-# Ignore temporary directories
-tmp/
-
-# Ignore local Docker Compose override (if used)
-docker-compose.override.yml
+venv
+__pycache__
+.idea
