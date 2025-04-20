@@ -21,14 +21,8 @@ Cassandra: A NoSQL database for storing the streamed user data.
 Docker Compose: Manages all services (Kafka, Spark, Cassandra, Airflow) in containers.
 
 # Project Structure
-.
-├── dags
-│ └── kafka-stream.py # Airflow DAG to stream data from API to Kafka
-├── script
-│ └── entrypoint.sh # Entrypoint script for Airflow containers
-├── docker-compose.yml # Docker Compose file to set up services
-├── requirements.txt # Python dependencies for Airflow
-└── spark-stream.py # Spark streaming application to consume from Kafka and insert into Cassandra
+
+<pre><code>## Project Structure . ├── dags/ │ └── kafka-stream.py # Airflow DAG to stream data from API to Kafka ├── script/ │ └── entrypoint.sh # Entrypoint script for Airflow containers ├── docker-compose.yml # Docker Compose file to set up services ├── requirements.txt # Python dependencies for Airflow └── spark-stream.py # Spark streaming app to consume from Kafka and insert into Cassandra </code></pre>
 
 
 ## Step-by-Step Setup
